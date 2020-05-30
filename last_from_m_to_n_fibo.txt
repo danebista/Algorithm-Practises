@@ -1,0 +1,17 @@
+Problem Description Task. Given two non-negative integers m and n, where m = n, 
+find the last digit of the sum Fm + Fm+1 + ···+ Fn. Input Format. 
+The input consists of two non-negative integers m and n separated by a space. 
+Constraints. 0 = m = n = 1014. 
+Output Format. 
+Output the last digit of Fm + Fm+1 +···+ Fn. 
+Sample 1. 
+Input: 3 7 
+Output: 1
+F3 + F4 + F5 + F6 + F7 = 2 + 3 + 5 + 8 + 13 = 31.
+Sample 2. 
+Input: 10 10 
+Output: 5
+F10 = 55.
+Sample 3. 
+Input: 10 200 
+Output: 2 F10 + F11 +···+ F200 = 734544867157818093234908902110449296423262 

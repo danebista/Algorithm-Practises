@@ -1,0 +1,11 @@
+1. Sum of Two Digits
+
+Sumof Two Digits Problem
+Compute the sum of two single digit numbers. Input: Two single digit numbers. Output: The sum of these numbers.
+2+3=5
+Inputformat: Integers a and b on the same line (separated by a space). Outputformat. The sum of a and b. Constraints. 0=a,b=9. Sample. Input: 9 7 Output: 16
+
+Timelimits(sec.): C C++ Java Python C# Haskell JavaScript Kotlin Ruby Rust Scala 1 1 1.5 5 1.5 2 5 1.5 5 1 3
+
+Memorylimit. 512 Mb.
+

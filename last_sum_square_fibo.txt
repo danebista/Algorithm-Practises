@@ -1,0 +1,15 @@
+Problem Description Task. Compute the last digit of F2 0 + F2 1 +···+ F2 n. 
+Input Format. Integer n. 
+Constraints. 0 = n = 1014. 
+Output Format. The last digit of F2 0 + F2 1 +···+ F2 n. 
+Sample 1. 
+Input: 7 
+Output: 3
+F2 0 + F2 1 +···+ F2 7 = 0 + 1 + 1 + 4 + 9 + 25 + 64 + 169 = 273. 
+
+Sample 2. 
+Input: 73 
+Output: 1
+F2 0 +···+ F2 73 = 1052478208141359608061842155201. 
+Sample 3. Input: 1234567890 O
+utput: 0

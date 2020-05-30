@@ -1,0 +1,13 @@
+Task. Given two integers n and m, output Fn mod m (that is, the remainder of Fn when divided by m). 
+Input Format. The input consists of two integers n and m given on the same line (separated by a space).
+Constraints. 1 = n = 1014, 2 = m = 103. 
+Output Format. 
+Output Fn mod m.
+Sample 1.
+Input: 239 1000 
+Output: 161
+F239 mod 1000 = 39679027332006820581608740953902289877834488152161 (mod 1000) = 161.
+Sample 2.
+Input: 2816213588 239 
+Output: 151
+F2816213588 does not fit into one page of this file, but F2816213588 mod 239 = 151.

@@ -1,0 +1,13 @@
+Problem Description Task. Given an integer n, find the last digit of the sum F0 + F1 +···+ Fn.
+Input Format. The input consists of a single integer n. 
+Constraints. 0 = n = 1014.
+Output Format. 
+Output the last digit of F0 + F1 +···+ Fn. 
+Sample 1. 
+Input: 3 
+Output: 4
+F0 + F1 + F2 + F3 = 0 + 1 + 1 + 2 = 4.
+Sample 2. 
+Input: 100 
+Output: 5
+The sum is equal to 927372692193078999175, the last digit is 5.

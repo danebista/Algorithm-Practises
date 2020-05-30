@@ -1,0 +1,12 @@
+Problem Description Task. Given two integers a and b, find their least common multiple. 
+Input Format. The two integers a and b are given in the same line separated by space. 
+Constraints. 1 = a,b = 107.
+Output Format. 
+Output the least common multiple of a and b.
+Sample 1.
+Input: 6 8
+Output: 24
+Among all the positive integers that are divisible by both 6 and 8 (e.g., 48, 480, 24), 24 is the smallest one.
+Sample 2. 
+Input: 761457 614573
+Output: 467970912861
