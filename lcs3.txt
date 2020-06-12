@@ -1,0 +1,16 @@
+5 Longest Common Subsequence of Three Sequences Problem 
+Introduction Compute the length of a longest common subsequence of three sequences.
+Problem Description Task. 
+Given three sequences A = (a1,a2,...,an), B = (b1,b2,...,bm), and C = (c1,c2,...,cl), 
+find the length of their longest common subsequence, i.e.,
+the largest non-negative integer p such that there exist indices 1 = i1 < i2 < ··· < ip = n, 1 = j1 < j2 < ··· < jp = m, 1 = k1 < k2 < ··· < kp = l such that ai1 = bj1 = ck1,...,aip = bjp = ckp 
+Input Format. First line: n. Second line: a1,a2,...,an. 
+Third line: m. Fourth line: b1,b2,...,bm. 
+Fifth line: l. Sixth line: c1,c2,...,cl. 
+Constraints. 1 = n,m,l = 100; -109 < ai,bi,ci < 109. Output Format. Output p.
+Sample 1. 
+Input: 3 1 2 3 3 2 1 3 3 1 3 5 
+Output: 2 A common subsequence of length 2 is (1,3).
+Sample 2. 
+Input: 5 8 3 2 1 7 7 8 2 1 3 8 10 7 6 6 8 3 1 4 7 
+Output: 3 One common subsequence of length 3 in this case is (8,3,7). Another one is (8,1,7).
