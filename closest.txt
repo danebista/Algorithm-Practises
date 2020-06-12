@@ -1,0 +1,19 @@
+     /// <summary>
+        /// Validate whether or not the begin date of household member is before the appointment date.
+        /// </summary>
+        /// <param name="target"> Enrollment case </param>
+        /// <returns> List of enrollment member
+        public bool ValidateBeginDateOfHHMember(EnrollmentCase target, HouseHoldClient hhClient){
+              
+            if (hhClient.Contact == null) return false;
+           
+            EntityCollection householdClientRecords = householdClientService.FetchAllByClientId(hhClient.Contact.Id);
+            
+            //Note: If this is the first household of the client, no need to check begin date.
+            if (householdClientRecords.Entities.Count <= 1) return true;
+
+            //Note: If the client is not the head of household or this is not the first household of the client, begin date cannot be after appointment date.
+            return (hhClient.BeginDate.Date <= target.AppointmentDate.Date);
+        }
+
+
