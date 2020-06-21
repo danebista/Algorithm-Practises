@@ -18,7 +18,7 @@ def get_change(m, coins):
 	
 if __name__ == '__main__':
 	# enter money to change, coin denominations
-	input = sys.stdin.readline()
+	input = sys.stdin.read()
 	n, *A = list(map(int, input.split()))
 	print(get_change(n, A))
 
